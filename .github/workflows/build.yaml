@@ -56,7 +56,7 @@ jobs:
           context: .
           file: ./build/Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ghcr.io/nfoert/lazygate:${{ github.sha }}
           labels: ${{ steps.meta.outputs.labels }}
           platforms: linux/amd64,linux/arm64
           cache-to: type=gha,mode=max
