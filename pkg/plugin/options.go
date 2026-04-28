@@ -1,14 +1,14 @@
 package plugin
 
 import (
-	"github.com/kasefuchs/lazygate/pkg/provider"
-	"github.com/kasefuchs/lazygate/pkg/provider/docker"
-	"github.com/kasefuchs/lazygate/pkg/provider/nomad"
-	"github.com/kasefuchs/lazygate/pkg/provider/pufferpanel"
-	"github.com/kasefuchs/lazygate/pkg/queue"
-	"github.com/kasefuchs/lazygate/pkg/queue/kick"
-	"github.com/kasefuchs/lazygate/pkg/queue/send"
-	"github.com/kasefuchs/lazygate/pkg/queue/wait"
+	"github.com/nfoert/lazygate/pkg/provider"
+	"github.com/nfoert/lazygate/pkg/provider/docker"
+	"github.com/nfoert/lazygate/pkg/provider/nomad"
+	"github.com/nfoert/lazygate/pkg/provider/pufferpanel"
+	"github.com/nfoert/lazygate/pkg/queue"
+	"github.com/nfoert/lazygate/pkg/queue/kick"
+	"github.com/nfoert/lazygate/pkg/queue/send"
+	"github.com/nfoert/lazygate/pkg/queue/wait"
 )
 
 // Options contains customizable plugin options.

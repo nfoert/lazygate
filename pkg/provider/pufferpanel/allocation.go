@@ -3,8 +3,8 @@ package pufferpanel
 import (
 	"encoding/json"
 
-	"github.com/kasefuchs/lazygate/pkg/provider"
-	"github.com/kasefuchs/lazygate/pkg/utils"
+	"github.com/nfoert/lazygate/pkg/provider"
+	"github.com/nfoert/lazygate/pkg/utils"
 )
 
 var _ provider.Allocation = (*Allocation)(nil)

@@ -5,8 +5,8 @@ import (
 
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
-	"github.com/kasefuchs/lazygate/pkg/provider"
-	"github.com/kasefuchs/lazygate/pkg/utils"
+	"github.com/nfoert/lazygate/pkg/provider"
+	"github.com/nfoert/lazygate/pkg/utils"
 )
 
 var _ provider.Allocation = (*Allocation)(nil)

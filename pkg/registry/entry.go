@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/kasefuchs/lazygate/pkg/provider"
+	"github.com/nfoert/lazygate/pkg/provider"
 	"go.minekube.com/gate/pkg/edition/java/config"
 	"go.minekube.com/gate/pkg/edition/java/netmc"
 	"go.minekube.com/gate/pkg/edition/java/proto/packet"

@@ -6,11 +6,11 @@ import (
 	"math"
 
 	"github.com/go-logr/logr"
-	"github.com/kasefuchs/lazygate/pkg/provider"
-	"github.com/kasefuchs/lazygate/pkg/queue"
-	"github.com/kasefuchs/lazygate/pkg/registry"
-	"github.com/kasefuchs/lazygate/pkg/scheduler"
-	"github.com/kasefuchs/lazygate/pkg/utils"
+	"github.com/nfoert/lazygate/pkg/provider"
+	"github.com/nfoert/lazygate/pkg/queue"
+	"github.com/nfoert/lazygate/pkg/registry"
+	"github.com/nfoert/lazygate/pkg/scheduler"
+	"github.com/nfoert/lazygate/pkg/utils"
 	"github.com/robinbraemer/event"
 	"go.minekube.com/gate/pkg/edition/java/proxy"
 )

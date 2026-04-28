@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/kasefuchs/lazygate/pkg/queue"
-	"github.com/kasefuchs/lazygate/pkg/utils"
+	"github.com/nfoert/lazygate/pkg/queue"
+	"github.com/nfoert/lazygate/pkg/utils"
 	"github.com/traefik/paerser/types"
 	"go.minekube.com/gate/pkg/edition/java/proxy"
 )

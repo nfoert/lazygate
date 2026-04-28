@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/kasefuchs/lazygate/pkg/provider"
-	"github.com/kasefuchs/lazygate/pkg/registry"
-	"github.com/kasefuchs/lazygate/pkg/utils"
+	"github.com/nfoert/lazygate/pkg/provider"
+	"github.com/nfoert/lazygate/pkg/registry"
+	"github.com/nfoert/lazygate/pkg/utils"
 )
 
 // Scheduler logger name.

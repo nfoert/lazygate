@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/kasefuchs/lazygate/pkg/provider"
+	"github.com/nfoert/lazygate/pkg/provider"
 	"go.minekube.com/gate/pkg/edition/java/proxy"
 )
 
